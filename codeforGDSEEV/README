@@ -1,0 +1,38 @@
+# Copyright (c) 2010 - 2013  Jonas Peters  [peters@stat.math.ethz.ch]
+# All rights reserved.  See the file COPYING for license terms. 
+
+This code is supplementary material for 
+J. Peters, P. B\"uhlmann: "Identifiability of Gaussian structural equation models with equal error variances", accepted in Biometrika
+
+Unfortunately, it is not well documented yet. If you have any questions please send an email to 
+peters@stat.math.ethz.ch
+
+
+====
+EXAMPLE
+====
+After starting R in this folder run 
+> source("./startups/startupGDS.R", chdir = TRUE)
+> source("exampleSimple.R")
+
+
+====
+MAIN FUNCTION
+====
+The main function you can find in "./inferDAG/GDS.R". It takes a (sample size x dimension) dimensional matrix as input and provides a score and an adjacency matrix as output.
+
+
+====
+EXPERIMENTS
+====
+After starting R in this folder run 
+> source("./experiments/GDS/startup.R", chdir = TRUE)
+and then, e.g.,
+> source("./experiments/GDS/experiment1Sparse.R", chdir = TRUE)
+
+
+====
+LICENSE
+====
+See COPYING for license terms.
+
